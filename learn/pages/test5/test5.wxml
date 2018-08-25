@@ -1,0 +1,9 @@
+<!--pages/test5/test5.wxml-->
+ <view  wx:for="{{videoList}}" wx:key="unique"  data-data="{{item}}" >
+        <text >{{item.ap_member_openid}}</text>
+        <view >
+          {{item.ap_phone_orginal}}
+        </view>
+ </view>
+ 
+

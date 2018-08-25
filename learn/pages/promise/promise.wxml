@@ -1,0 +1,5 @@
+<!--pages/promise/promise.wxml-->
+
+<view bindtap='chooseImages'>
+上传图片
+</view>

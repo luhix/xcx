@@ -1,0 +1,15 @@
+<view class="info">  
+    <text>收货地址</text>  
+    <input bindfocus="bingAddressTap" value="{{REGION_PROVINCE}}{{REGION_CITY}}{{REGION_COUNTRY}}" placeholder="小区/大厦/学校"/>  
+</view>  
+<view class="info">  
+    <text>详细地址</text>  
+    <textarea auto-height="true" placeholder="详细地址（如门牌号等）" value="{{ADDRESS}}"/>  
+</view>  
+
+ <view wx:if="{{hide_address == 1}}">
+      ddddd 
+  </view>
+   <view wx:else>
+      aaa 
+  </view>

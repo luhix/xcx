@@ -1,0 +1,9 @@
+<!--pages/test4/test4.wxml-->
+
+ <view  wx:for="{{moment}}" wx:key="unique"  data-data="{{item}}" >
+      
+        <text >{{item.ap_member_openid}}</text>
+        <view >
+          {{item.ap_phone_orginal}}
+        </view>
+ </view>

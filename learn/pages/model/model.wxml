@@ -1,0 +1,21 @@
+<!--pages/model/model.wxml-->
+<text>pages/model/model.wxml</text>
+<view wx:if="{{ condition }}">普通标签的 测试显示和影藏 </view>
+<checkbox checked="{{isShow}}">不要直接写checked="false",应该用数据绑定的方法 </checkbox>
+<view hidden="{{flag ? true : false}}"> 显示和隐藏相反 </view>
+
+<view wx:if="{{length > 5}}">这是if </view>
+<view wx:else>这是else </view>
+
+
+<view wx:for="{{[1,2,3]}} ">
+  {{item}}
+</view>
+
+<view>xxx</view>  
+
+<view class="itemView">姓名：
+    <input name="userName" placeholder="请输入申请人姓名" bindinput="userNameInput" />
+</view>
+
+       
